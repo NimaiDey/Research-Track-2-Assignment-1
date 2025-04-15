@@ -4,6 +4,10 @@
 
 This project involves building a ROS (Robot Operating System) system that utilizes various modules to enable a robot to perform specific tasks such as following a wall, moving towards a target point, and managing a bug's behavior in a simulated environment. The system leverages ROS packages for communication, service handling, and message passing.
 
+## Author: Nimai Chandra Das
+## Dept: Robotics Engineering 
+## ID: 6687771
+
 ### Key Features
 - **ROS-based system** for robotic control
 - **Modules for wall following, bug movement, and navigation**
