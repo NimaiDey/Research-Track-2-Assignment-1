@@ -1,0 +1,90 @@
+/* General body styling */
+body {
+    background-color: #f7f7f7;  /* Light gray background */
+    color: #333;  /* Dark text for readability */
+    font-family: 'Arial', sans-serif;  /* Modern font */
+}
+
+/* Styling the navigation menu */
+.wy-nav-side {
+    background-color: #2e3b4e;  /* Dark background for sidebar */
+    color: #ffffff;
+}
+
+.wy-nav-side .current a {
+    color: #ffcc00;  /* Highlight current section */
+}
+
+/* Sticky sidebar */
+.wy-side-nav-search {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #2e3b4e;  /* Darker color for the sticky sidebar */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effects on navigation links */
+.wy-nav-side a:hover {
+    background-color: #ffcc00;  /* Yellow hover effect */
+    color: #333;
+    text-decoration: none;
+}
+
+/* Header styling */
+.header {
+    background-color: #2e3b4e;  /* Dark header background */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #2e3b4e;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Add hover effect on buttons */
+.btn, .wy-next-nav, .wy-prev-nav {
+    background-color: #ffcc00;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.btn:hover, .wy-next-nav:hover, .wy-prev-nav:hover {
+    background-color: #e6a700;  /* Darker yellow on hover */
+}
+
+/* Style tables */
+table {
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Links in the documentation */
+a {
+    color: #007acc;  /* Blue links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005f8e;  /* Dark blue on hover */
+    text-decoration: underline;
+}
+
